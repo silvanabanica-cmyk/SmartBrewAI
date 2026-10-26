@@ -24,11 +24,12 @@ The second command should open a small test window. Close it before launching th
 ## 3. Setup and launch
 
 1. Clone or download the repository: https://github.com/silvanabanica-cmyk/SmartBrewAI
-2. Open PowerShell in the project directory.
+2. Open PowerShell in the repository directory.
 3. Verify that Python and Tkinter are available.
-4. Start the application:
+4. Enter the Task B folder and start the application:
 
 ```powershell
+cd .\Task_B
 python main.py
 ```
 
@@ -53,9 +54,10 @@ These are demonstration targets; confirm the exact navigation and functionality 
 
 ## 5. Running the tests
 
-Run the following from the project directory:
+Run the following commands from the repository directory:
 
 ```powershell
+cd .\Task_B
 python -m unittest discover -v
 ```
 
@@ -69,11 +71,13 @@ The local `smartbrew.db` file is excluded from the repository. The application s
 
 ## 7. Source code
 
-- `main.py`: Application entry point and graphical interface.
-- `accounts.py`: Account creation, password hashing, and authentication.
-- `assistant.py`: Assistant response functionality.
-- `database.py`: Database initialization and data operations.
-- `test_accounts.py`, `test_database.py`, `test_inventory.py`: Automated tests.
+The application code and tests are located in `Task_B/`:
+
+- `Task_B/main.py`: Application entry point and graphical interface.
+- `Task_B/accounts.py`: Account creation, password hashing, and authentication.
+- `Task_B/assistant.py`: Assistant response functionality.
+- `Task_B/database.py`: Database initialization and data operations.
+- `Task_B/test_accounts.py`, `Task_B/test_database.py`, `Task_B/test_inventory.py`: Automated tests.
 
 Source functions and methods include docstrings describing their purposes, parameters, and return values.
 
