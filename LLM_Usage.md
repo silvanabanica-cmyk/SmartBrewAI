@@ -2,7 +2,7 @@
 
 
 
-\## Task A — Requirements and planning artifacts
+\##  Task A: Requirements and planning artifacts
 
 
 
@@ -18,7 +18,7 @@
 
 
 
-\## Task B — Implementation and testing
+\## Task B: Implementation and testing
 
 
 
@@ -30,7 +30,7 @@
 
 
 
-\## Task C — Documentation
+\## Task C:  Documentation
 
 
 
